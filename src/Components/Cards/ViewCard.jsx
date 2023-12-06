@@ -14,7 +14,7 @@ function ViewCard({ imageSource, title, details, url }) {
       <div className="card-body text-light">
         <h4 className="card-title">{title}</h4>
       </div>
-      <div className="grid">   
+      <div className="grid" >   
         
           <button className="details"
             type="button"
@@ -36,7 +36,7 @@ function ViewCard({ imageSource, title, details, url }) {
                   className="btn btn-outline-secondary border-1"
                   rel="noreferrer"
                 >
-                  Ir a la Web de {title}
+                  Ir a {title}
                 </a>
               </p>
             </div>

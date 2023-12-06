@@ -38,7 +38,7 @@ const ListCards = ({ imagen, titulo, descripcion, ruta }) => {
                     className="btn btn-outline-secondary border-1"
                     rel="noreferrer"
                   >
-                    Ir a la Web de 
+                    Ir a MARVEL's
                     
                     </a>
                 </p>

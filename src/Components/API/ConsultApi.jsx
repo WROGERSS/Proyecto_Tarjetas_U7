@@ -11,14 +11,15 @@ const ConsultApi = () => {
   const hash = "6a00db839ad9e3311d639c6a0b16032e";
 
   const categoria = "events";
-  const url = `http://gateway.marvel.com/v1/public/${categoria}?ts=${ts}&apikey=${key}&hash=${hash}`;
+  const url = `https://gateway.marvel.com/v1/public/${categoria}?ts=${ts}&apikey=${key}&hash=${hash}`;
 
   useEffect(() => {
     const solicitud = async () => {
       try {
         const response = await axios.get(url);
         setDatos(response.data.data.results);
-        console.log(datos);
+        /*console.log(datos);*/
+        console.log
       } catch (error) {
         console.log("Error detectado API:", error);
       }
