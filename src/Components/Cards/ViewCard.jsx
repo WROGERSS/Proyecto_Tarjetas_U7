@@ -26,7 +26,7 @@ function ViewCard({ imageSource, title, details, url }) {
           </button>
 
           {show ? (
-            <div style={{ color: "black" }}>{details}</div>
+            <div style={{ color: "black"}}>{details}</div>
           ) : (
             <div style={{ color: "blue" }}>
               <p>
@@ -49,7 +49,6 @@ function ViewCard({ imageSource, title, details, url }) {
 
 ViewCard.propTypes = {
   title: PropTypes.string.isRequired,
-  text: PropTypes.string,
   url: PropTypes.string,
   imageSource: PropTypes.string,
   details: PropTypes.string,

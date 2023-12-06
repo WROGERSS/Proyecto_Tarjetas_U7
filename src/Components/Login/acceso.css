@@ -56,30 +56,10 @@ button {
   border: 1px solid #df3173;
 }
 
-/*
-.orden {
-  
-  align-items: center;
 
-}
-
-.emoticon {
- width: 20%;
-align-items: center;
-
-}
-
-.boton {
-  align-items: center;|
-  border-color: aqua;
-}
-*/
 h5 {
   align-items: center;
   color: #0a0a0a;
+  
 }
 
-.obligatorio{
-  align-items: center;
-  width: 100%;
-}

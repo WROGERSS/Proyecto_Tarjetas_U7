@@ -1,0 +1,12 @@
+.card-imghome-top {
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+   }
+
+ .card-imghome-top:hover {
+    transform: scale(1.8);
+  }
+
+.overflows {
+    overflow: hidden;
+  }
